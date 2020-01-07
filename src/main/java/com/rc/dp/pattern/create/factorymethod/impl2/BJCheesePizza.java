@@ -1,0 +1,16 @@
+package com.rc.dp.pattern.create.factorymethod.impl2;
+
+/**
+ * @ClassName CheesePizza
+ * @Description 北京奶酪披萨类
+ * @Author liux
+ * @Date 19-11-21 下午3:48
+ * @Version 1.0
+ */
+public class BJCheesePizza extends Pizza {
+
+    @Override
+    public void prepare() {
+        System.out.println(" 北京奶酪披萨准备原材料... ");
+    }
+}

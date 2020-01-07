@@ -1,0 +1,2 @@
+此处有一个bug.生成的代理类(TankTimeProxy.java,TankTimeProxy.class)要第二次才能生效.
+也就是说如果第一次运行Main出错,再运行一次就好了

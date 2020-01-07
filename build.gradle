@@ -1,0 +1,37 @@
+plugins {
+    id 'java'
+}
+
+group 'com.rc'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+
+    compile 'org.springframework:spring-webmvc:5.2.1.RELEASE'
+    compile 'org.springframework:spring-context:5.2.1.RELEASE'
+    compile 'org.springframework:spring-test:5.2.1.RELEASE'
+
+    compile 'javax.servlet:javax.servlet-api:4.0.1'
+
+    compile 'mysql:mysql-connector-java:8.0.18'
+
+    //log
+    compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.29'
+    compile group: 'ch.qos.logback', name: 'logback-core', version: '1.2.3'
+
+
+    //cglib
+    compile 'cglib:cglib:3.3.0'
+
+    //spring-jdbc  体会命令模式在其内部的应用
+    compile group: 'org.springframework', name: 'spring-jdbc', version: '5.2.2.RELEASE'
+
+
+}
