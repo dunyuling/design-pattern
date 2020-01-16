@@ -1,7 +1,7 @@
 package com.rc.dp.pattern.struct.proxy.jingtai;
 
 /**
- * @ClassName Client
+ * @ClassName Main
  * @Description TODO
  * @Author liux
  * @Date 19-12-25 下午2:48

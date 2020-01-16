@@ -3,7 +3,7 @@ package com.rc.dp.pattern.struct.proxy.cglib;
 import net.sf.cglib.proxy.Enhancer;
 
 /**
- * @ClassName Client
+ * @ClassName Main
  * @Description TODO
  * @Author liux
  * @Date 19-12-25 下午3:48

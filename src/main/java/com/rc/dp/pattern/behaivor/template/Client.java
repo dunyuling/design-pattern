@@ -1,7 +1,7 @@
 package com.rc.dp.pattern.behaivor.template;
 
 /**
- * @ClassName Client
+ * @ClassName Main
  * @Description TODO
  * @Author liux
  * @Date 19-12-26 上午9:51

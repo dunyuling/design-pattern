@@ -3,7 +3,7 @@ package com.rc.dp.pattern.struct.proxy.jdk;
 import java.lang.reflect.Proxy;
 
 /**
- * @ClassName Client
+ * @ClassName Main
  * @Description TODO
  * @Author liux
  * @Date 19-12-25 下午2:56
